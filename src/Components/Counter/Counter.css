@@ -1,0 +1,23 @@
+.conatiner {
+  height: 100vh;
+  background: rgb(93, 239, 159);
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+button {
+  padding: 10px;
+  border-radius: 10px;
+  width: auto;
+  outline: none;
+  box-shadow: 1px 2px #ee2323;
+  border: none;
+}
+.display-count {
+  text-align: center;
+}
+.display-count button {
+  margin: 10px;
+  gap: 20px;
+}
